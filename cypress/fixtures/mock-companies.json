@@ -1,0 +1,352 @@
+[
+    {
+        "razao_social": "Premium Café do Rafael Ltda.",
+        "nome_fantasia": "Fino Pão do Paulo",
+        "estado": "SP",
+        "municipio": "Ribeirão Preto",
+        "cnpj": "11828067/8311-11"
+    },
+    {
+        "razao_social": "Delicioso Lanches da Clara Ltda.",
+        "nome_fantasia": "Caseiro Frutas da Júlia",
+        "estado": "CE",
+        "municipio": "Sobral",
+        "cnpj": "47424893/2727-68"
+    },
+    {
+        "razao_social": "Popular Pão do Paulo Ltda.",
+        "nome_fantasia": "Saboroso Sabores da Júlia",
+        "estado": "DF",
+        "municipio": "Brasília",
+        "cnpj": "53517229/1311-37"
+    },
+    {
+        "razao_social": "Fino Flores do Carlos Ltda.",
+        "nome_fantasia": "Premium Mel da Júlia",
+        "estado": "RS",
+        "municipio": "Santa Maria",
+        "cnpj": "54324714/4175-91"
+    },
+    {
+        "razao_social": "Caseiro Doces do Paulo Ltda.",
+        "nome_fantasia": "Natural Doces da Júlia",
+        "estado": "CE",
+        "municipio": "Maracanaú",
+        "cnpj": "29416697/3309-19"
+    },
+    {
+        "razao_social": "Delicioso Flores do Rafael Ltda.",
+        "nome_fantasia": "Premium Queijos da Clara",
+        "estado": "SC",
+        "municipio": "Florianópolis",
+        "cnpj": "90717232/6564-88"
+    },
+    {
+        "razao_social": "Natural Frutas da Clara Ltda.",
+        "nome_fantasia": "Delicioso Café do Carlos",
+        "estado": "DF",
+        "municipio": "Brasília",
+        "cnpj": "41631089/2019-74"
+    },
+    {
+        "razao_social": "Caseiro Queijos da Júlia Ltda.",
+        "nome_fantasia": "Delicioso Pão do José",
+        "estado": "RS",
+        "municipio": "Porto Alegre",
+        "cnpj": "60402148/5370-67"
+    },
+    {
+        "razao_social": "Doce Sabores do Carlos Ltda.",
+        "nome_fantasia": "Doce Sabores do Rafael",
+        "estado": "SC",
+        "municipio": "Joinville",
+        "cnpj": "52048577/4105-60"
+    },
+    {
+        "razao_social": "Fino Pão da Júlia Ltda.",
+        "nome_fantasia": "Delicioso Flores da Júlia",
+        "estado": "DF",
+        "municipio": "Brasília",
+        "cnpj": "80124746/5151-94"
+    },
+    {
+        "razao_social": "Fresco Café da Júlia Ltda.",
+        "nome_fantasia": "Premium Café do Pedro",
+        "estado": "BA",
+        "municipio": "Camaçari",
+        "cnpj": "45661084/1689-14"
+    },
+    {
+        "razao_social": "Delicioso Pão do Paulo Ltda.",
+        "nome_fantasia": "Fresco Café da Maria",
+        "estado": "CE",
+        "municipio": "Sobral",
+        "cnpj": "57379088/3565-67"
+    },
+    {
+        "razao_social": "Saboroso Frutas do Carlos Ltda.",
+        "nome_fantasia": "Premium Frutas do José",
+        "estado": "RJ",
+        "municipio": "Niterói",
+        "cnpj": "81836429/2514-83"
+    },
+    {
+        "razao_social": "Doce Lanches da Ana Ltda.",
+        "nome_fantasia": "Fino Lanches do Paulo",
+        "estado": "CE",
+        "municipio": "Caucaia",
+        "cnpj": "93031409/4037-38"
+    },
+    {
+        "razao_social": "Fresco Lanches do Rafael Ltda.",
+        "nome_fantasia": "Popular Lanches do Rafael",
+        "estado": "SC",
+        "municipio": "Criciúma",
+        "cnpj": "51031761/8973-44"
+    },
+    {
+        "razao_social": "Caseiro Pão do José Ltda.",
+        "nome_fantasia": "Especial Bolos da Clara",
+        "estado": "MG",
+        "municipio": "Juiz de Fora",
+        "cnpj": "93609869/7255-34"
+    },
+    {
+        "razao_social": "Natural Flores do Pedro Ltda.",
+        "nome_fantasia": "Popular Lanches da Maria",
+        "estado": "MG",
+        "municipio": "Uberlândia",
+        "cnpj": "83116780/2222-12"
+    },
+    {
+        "razao_social": "Popular Mel da Clara Ltda.",
+        "nome_fantasia": "Natural Mel do Pedro",
+        "estado": "DF",
+        "municipio": "Brasília",
+        "cnpj": "49938866/8593-96"
+    },
+    {
+        "razao_social": "Fino Frutas da Júlia Ltda.",
+        "nome_fantasia": "Premium Frutas do Rafael",
+        "estado": "SP",
+        "municipio": "São Paulo",
+        "cnpj": "12989105/4368-38"
+    },
+    {
+        "razao_social": "Caseiro Café do João Ltda.",
+        "nome_fantasia": "Fino Mel da Ana",
+        "estado": "MG",
+        "municipio": "Juiz de Fora",
+        "cnpj": "61400727/4477-45"
+    },
+    {
+        "razao_social": "Saboroso Sabores do João Ltda.",
+        "nome_fantasia": "Delicioso Sabores do Carlos",
+        "estado": "SC",
+        "municipio": "Blumenau",
+        "cnpj": "69885398/2741-42"
+    },
+    {
+        "razao_social": "Delicioso Café da Ana Ltda.",
+        "nome_fantasia": "Fresco Doces da Maria",
+        "estado": "SP",
+        "municipio": "Santos",
+        "cnpj": "58944287/9445-89"
+    },
+    {
+        "razao_social": "Caseiro Queijos do Carlos Ltda.",
+        "nome_fantasia": "Popular Bolos da Júlia",
+        "estado": "PE",
+        "municipio": "Jaboatão dos Guararapes",
+        "cnpj": "52700510/8635-57"
+    },
+    {
+        "razao_social": "Delicioso Lanches da Maria Ltda.",
+        "nome_fantasia": "Delicioso Frutas da Clara",
+        "estado": "SP",
+        "municipio": "Ribeirão Preto",
+        "cnpj": "84207123/5881-47"
+    },
+    {
+        "razao_social": "Caseiro Sabores do José Ltda.",
+        "nome_fantasia": "Fresco Lanches da Clara",
+        "estado": "DF",
+        "municipio": "Brasília",
+        "cnpj": "32237436/9407-24"
+    },
+    {
+        "razao_social": "Delicioso Sabores da Júlia Ltda.",
+        "nome_fantasia": "Fino Pão do Carlos",
+        "estado": "MG",
+        "municipio": "Juiz de Fora",
+        "cnpj": "71402144/1394-85"
+    },
+    {
+        "razao_social": "Natural Sabores do Pedro Ltda.",
+        "nome_fantasia": "Delicioso Café do José",
+        "estado": "CE",
+        "municipio": "Fortaleza",
+        "cnpj": "81694156/3842-48"
+    },
+    {
+        "razao_social": "Fino Doces da Ana Ltda.",
+        "nome_fantasia": "Fresco Flores do Pedro",
+        "estado": "RJ",
+        "municipio": "Campos dos Goytacazes",
+        "cnpj": "71092837/4966-56"
+    },
+    {
+        "razao_social": "Especial Flores do Carlos Ltda.",
+        "nome_fantasia": "Popular Bolos do José",
+        "estado": "RJ",
+        "municipio": "Petrópolis",
+        "cnpj": "16288785/8023-31"
+    },
+    {
+        "razao_social": "Delicioso Lanches do José Ltda.",
+        "nome_fantasia": "Popular Café do José",
+        "estado": "SC",
+        "municipio": "Blumenau",
+        "cnpj": "44731659/8711-46"
+    },
+    {
+        "razao_social": "Saboroso Sabores da Clara Ltda.",
+        "nome_fantasia": "Saboroso Mel da Ana",
+        "estado": "SC",
+        "municipio": "Florianópolis",
+        "cnpj": "91546672/9550-99"
+    },
+    {
+        "razao_social": "Premium Bolos do Rafael Ltda.",
+        "nome_fantasia": "Fino Pão do Rafael",
+        "estado": "DF",
+        "municipio": "Brasília",
+        "cnpj": "11462489/9393-48"
+    },
+    {
+        "razao_social": "Delicioso Bolos do Carlos Ltda.",
+        "nome_fantasia": "Fresco Lanches do Paulo",
+        "estado": "SC",
+        "municipio": "Joinville",
+        "cnpj": "87154848/8904-78"
+    },
+    {
+        "razao_social": "Especial Flores da Júlia Ltda.",
+        "nome_fantasia": "Premium Sabores do José",
+        "estado": "MG",
+        "municipio": "Uberlândia",
+        "cnpj": "47664221/8080-19"
+    },
+    {
+        "razao_social": "Delicioso Sabores do Carlos Ltda.",
+        "nome_fantasia": "Delicioso Sabores do Carlos",
+        "estado": "MG",
+        "municipio": "Contagem",
+        "cnpj": "39939080/9791-68"
+    },
+    {
+        "razao_social": "Premium Café do Rafael Ltda.",
+        "nome_fantasia": "Natural Café do Rafael",
+        "estado": "DF",
+        "municipio": "Brasília",
+        "cnpj": "20044148/1967-37"
+    },
+    {
+        "razao_social": "Especial Flores da Júlia Ltda.",
+        "nome_fantasia": "Premium Lanches do Paulo",
+        "estado": "SC",
+        "municipio": "Criciúma",
+        "cnpj": "83636142/4883-52"
+    },
+    {
+        "razao_social": "Caseiro Pão da Maria Ltda.",
+        "nome_fantasia": "Especial Flores da Júlia",
+        "estado": "PR",
+        "municipio": "Londrina",
+        "cnpj": "41431225/8047-67"
+    },
+    {
+        "razao_social": "Saboroso Lanches do Rafael Ltda.",
+        "nome_fantasia": "Premium Sabores do Paulo",
+        "estado": "SP",
+        "municipio": "Santos",
+        "cnpj": "99653863/2764-12"
+    },
+    {
+        "razao_social": "Especial Flores da Maria Ltda.",
+        "nome_fantasia": "Popular Flores do João",
+        "estado": "CE",
+        "municipio": "Fortaleza",
+        "cnpj": "64772870/2712-11"
+    },
+    {
+        "razao_social": "Fino Pão da Ana Ltda.",
+        "nome_fantasia": "Especial Doces do Rafael",
+        "estado": "DF",
+        "municipio": "Brasília",
+        "cnpj": "37922373/1447-23"
+    },
+    {
+        "razao_social": "Caseiro Flores do Pedro Ltda.",
+        "nome_fantasia": "Natural Lanches da Júlia",
+        "estado": "SC",
+        "municipio": "Criciúma",
+        "cnpj": "42546702/7873-35"
+    },
+    {
+        "razao_social": "Delicioso Flores do Rafael Ltda.",
+        "nome_fantasia": "Doce Flores do Rafael",
+        "estado": "PE",
+        "municipio": "Jaboatão dos Guararapes",
+        "cnpj": "40321397/3049-75"
+    },
+    {
+        "razao_social": "Premium Pão da Clara Ltda.",
+        "nome_fantasia": "Fino Café da Ana",
+        "estado": "RJ",
+        "municipio": "Campos dos Goytacazes",
+        "cnpj": "27623485/1329-59"
+    },
+    {
+        "razao_social": "Especial Café do José Ltda.",
+        "nome_fantasia": "Especial Flores da Maria",
+        "estado": "DF",
+        "municipio": "Brasília",
+        "cnpj": "34610247/6976-94"
+    },
+    {
+        "razao_social": "Doce Café do Paulo Ltda.",
+        "nome_fantasia": "Saboroso Flores do João",
+        "estado": "MG",
+        "municipio": "Belo Horizonte",
+        "cnpj": "72369029/6450-31"
+    },
+    {
+        "razao_social": "Caseiro Doces da Maria Ltda.",
+        "nome_fantasia": "Delicioso Lanches do João",
+        "estado": "SP",
+        "municipio": "Santos",
+        "cnpj": "13197544/5560-56"
+    },
+    {
+        "razao_social": "Fresco Sabores do Paulo Ltda.",
+        "nome_fantasia": "Caseiro Sabores da Júlia",
+        "estado": "SC",
+        "municipio": "Itajaí",
+        "cnpj": "87115042/2994-99"
+    },
+    {
+        "razao_social": "Premium Frutas do João Ltda.",
+        "nome_fantasia": "Especial Doces do Paulo",
+        "estado": "CE",
+        "municipio": "Caucaia",
+        "cnpj": "97091482/7136-86"
+    },
+    {
+        "razao_social": "Especial Mel do Rafael Ltda.",
+        "nome_fantasia": "Saboroso Sabores da Clara",
+        "estado": "SP",
+        "municipio": "Sorocaba",
+        "cnpj": "80499561/9448-30"
+    }
+]
