@@ -92,9 +92,9 @@ Utilização de Material UI, styled-components para garantir uma interface clara
 ## 🔑 Variáveis de Ambiente
 
 ```bash
-NEXT_PUBLIC_API_BASE_URL=https://n8ndev.arkmeds.xyz/webhook/14686c31-d3ab-4356-9c90-9fbd2feff9f1
-NEXT_PUBLIC_X_API_KEY=nWCamsFISv84YLTZWPEN61sGyhDnSsqF3eIny8IA
-NEXT_PUBLIC_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYW5kaWRhdG8iOiJ0aWlhZ28ud3lAZ21haWwuY29tIn0.byPZp1R2NVItnLYH9E9ITGpph7le7RE-1HuLupYrB04
+NEXT_PUBLIC_API_BASE_URL=
+NEXT_PUBLIC_X_API_KEY=
+NEXT_PUBLIC_JWT_TOKEN=
 ```
 
 ---
