@@ -44,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <AppTheme themeComponents={xThemeComponents}>
             <CssBaseline enableColorScheme />
             <GlobalStyles />
-            <Box sx={{ display: 'flex' }}>
+            <Box sx={{ display: 'flex', minHeight: '100vh' }}>
               <SideMenu />
               <AppNavbar />
             

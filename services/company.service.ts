@@ -1,6 +1,6 @@
 import apiClient from './api/apiClient';
 import ENDPOINTS from './api/endpoints';
-import { Company, CompanyByCNPJ, CompanyByCNPJReq, DetailCompany } from '@/types/companies';
+import { Company, CompanyByCNPJ, CompanyByCNPJReq, CreateCompany, DetailCompany } from '@/types/companies';
 import { cleanCNPJ } from '@/utils/generals';
 import axios from 'axios';
 
@@ -62,5 +62,19 @@ export const CompanyService = {
       console.error('Erro ao buscar empresa:', error);
       throw new Error('Falha ao buscar empresa. Tente novamente mais tarde.');
     }
-  }
+  },
+
+  // Cadastra uma nova empresa
+  createCompany: async (payload: CreateCompany): Promise<Company> => {
+    try {
+      const { data } = await apiClient.post<Company>(
+        ENDPOINTS.COMPANIES.BASE,
+        payload,
+        { headers: { 'x-api-key': process.env.NEXT_PUBLIC_X_API_KEY } }
+      );
+      return data;
+    } catch (error) {
+      handleRequestError(error, 'Erro ao cadastrar empresa!');
+    }
+  },
 };

@@ -20,8 +20,12 @@ import { PAGE_SIZE } from '@/utils/constants';
 import { MaskedField } from '@/components/ui/MaskedField';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import { convertCNPJ } from '@/utils/generals';
+import { CompanyService } from '@/services';
+import { toast } from 'react-toastify';
+import { useQueryClient } from '@tanstack/react-query';
 
 export default function Companies() {
+  const queryClient = useQueryClient();
   const { data: companies, isLoading, error } = useAllCompanies();
   const [modalOpen, setModalOpen] = useState(false);
   const handleOpenModal = () => setModalOpen(true);
@@ -99,6 +103,21 @@ export default function Companies() {
       </Alert>
     );
   }
+
+  // Criação da empresa
+  const handleSaveCompany = async (data: any): Promise<void> => {
+    try {
+      await CompanyService.createCompany(data);
+      toast.success('Empresa cadastrada com sucesso!');
+
+      // Invalida o cache para refazer a busca por empresas
+      queryClient.invalidateQueries({ queryKey: ['companies'] }); 
+    } catch (error: any) {
+      toast.error(error?.message || 'Erro ao cadastrar empresa!');
+      console.error(error);
+      throw error;
+    }
+  };
 
   return (
     <>
@@ -205,7 +224,7 @@ export default function Companies() {
       <CompanyRegisterModal
         open={modalOpen}
         onClose={handleCloseModal}
-        onSave={() => null}
+        onSave={handleSaveCompany}
       />
     </>
   );

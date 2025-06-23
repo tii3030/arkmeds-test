@@ -13,6 +13,7 @@ import DashboardRoundedIcon from '@mui/icons-material/DashboardRounded';
 import SideMenuMobile from './SideMenuMobile';
 import MenuButton from './MenuButton';
 import ColorModeIconDropdown from '../shared-theme/ColorModeIconDropdown';
+import Image from 'next/image';
 
 const Toolbar = styled(MuiToolbar)({
   width: '100%',
@@ -63,9 +64,15 @@ export default function AppNavbar() {
           <Stack
             direction="row"
             spacing={1}
-            sx={{ justifyContent: 'center', mr: 'auto' }}
+            sx={{ justifyContent: 'center', mr: 'auto', alignItems: 'center' }}
           >
-            <CustomIcon />
+            {/* <CustomIcon /> */}
+            <Image
+              src="/favicon.png"
+              alt="Logo da empresa"
+              width={30}
+              height={30}
+            />
             <Typography variant="h4" component="h1" sx={{ color: 'text.primary' }}>
               Arkmeds Test
             </Typography>

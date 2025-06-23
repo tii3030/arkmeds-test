@@ -45,16 +45,11 @@ export default function CompanyRegisterModal({
     }
   });
 
-  const { handleSubmit, reset, formState: { isSubmitting } } = methods;
+  const { handleSubmit, reset, setError, formState: { isSubmitting } } = methods;
 
   // Limpa o formulário
   const handleClear = () => {
     reset();
-  };
-
-  const onSubmit = (data: CompanyFormData) => {
-    onSave(data);
-    onClose();
   };
 
   const handleClose = () => {
@@ -62,21 +57,18 @@ export default function CompanyRegisterModal({
     onClose();
   };
 
-  // const handleCreateCompany = async () => {
-  //   const companyData = {
-  //     cnpj: '12.345.678/0001-99',
-  //     razao_social: 'Minha Empresa LTDA',
-  //     nome_fantasia: 'Minha Marca'
-  //   };
-
-  //   const success = await createNewCompany(companyData);
-    
-  //   if (success) {
-  //     alert('Empresa criada com sucesso!');
-  //   } else {
-  //     alert('Erro ao criar empresa');
-  //   }
-  // };
+  const onSubmit = async (data: CompanyFormData) => {
+    try {
+      await onSave(data);
+      reset();
+      onClose();
+    } catch (error) {
+      setError('root', {
+        type: 'manual',
+        message: 'Não foi possível salvar a empresa. Verifique e tente novamente.'
+      });
+    }
+  };
 
   return (
     <Dialog

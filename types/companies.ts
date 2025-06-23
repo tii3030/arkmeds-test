@@ -10,7 +10,6 @@ export type DetailCompany = {
   valor_rendimento: number
 }
 
-// Nesse caso os campos para a criação poderiam ser idênticos aos campos de resposta, podendo assim estender a interface Company
 export type CreateCompany = {
   cnpj: string;
   razaoSocial: string;
