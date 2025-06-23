@@ -59,12 +59,17 @@ export default function Companies() {
   if (isLoading) {
     return (
       <Stack
-        alignItems="center"
-        justifyContent="center"
-        position='absolute'
-        top="50%"
-        left="50%"
-        sx={{ transform: 'translate(-50%, -50%)' }}
+        sx={{
+          position: 'absolute',
+          top: '50%',
+          left: {
+            xs: '50%',
+            md: 'calc(50% + 120px)',
+          },
+          transform: 'translate(-50%, -50%)',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
         data-cy="loading"
       >
         <CircularProgress color='secondary' size={30} thickness={4}/>
