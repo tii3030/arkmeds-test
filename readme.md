@@ -39,7 +39,7 @@ Utilização de Material UI, styled-components para garantir uma interface clara
 
 ## 🚀 Demo
 
-> Adicione aqui um [link para o deploy](#) ou GIF demonstrativo.
+> Acesse a aplicação online: [arkmeds-test.vercel.app](https://arkmeds-test.vercel.app/)
 
 ---
 
