@@ -15,7 +15,7 @@ import { usePathname } from 'next/navigation';
 
 const mainListItems = [
   { text: 'Home', icon: <HomeRoundedIcon />, path: '/' },
-  { text: 'Empresas', icon: <StoreIcon />, path: '/companies' },
+  // { text: 'Empresas', icon: <StoreIcon />, path: '/companies' },
 ];
 
 const secondaryListItems = [

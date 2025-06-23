@@ -116,8 +116,7 @@ NEXT_PUBLIC_JWT_TOKEN=
 arkmeds-test/
 ├── app/                 # Páginas e layout principal
 │   ├── layout.tsx       # Layout global
-│   ├── page.tsx         # Home (Implementação futura)
-│   └── companies/       # Página (Listagem e cadastro)
+│   └── page.tsx         # Página (Listagem e cadastro)
 ├── components/          # Componentes de layout e theme
 ├── context/             # Contexts globais
 ├── hooks/               # Custom Hooks (CNPJ, CEP)
