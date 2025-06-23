@@ -62,7 +62,7 @@ export default function CompanyRegisterModal({
       await onSave(data);
       reset();
       onClose();
-    } catch (error) {
+    } catch {
       setError('root', {
         type: 'manual',
         message: 'Não foi possível salvar a empresa. Verifique e tente novamente.'
