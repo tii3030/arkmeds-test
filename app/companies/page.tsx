@@ -56,16 +56,6 @@ export default function Companies() {
     setPage(1);
   }, [filterCNPJ, filterName]);
 
-  if (!companies || companies.length === 0) {
-    return (
-      <Stack spacing={2} sx={{ p: 3 }} alignItems={'center'}>
-        <Typography variant="body1">
-          Nenhuma empresa cadastrada
-        </Typography>
-      </Stack>
-    );
-  }
-
   if (isLoading) {
     return (
       <Stack
@@ -79,6 +69,16 @@ export default function Companies() {
       >
         <CircularProgress color='secondary' size={30} thickness={4}/>
         <Typography variant="body1" mt={2}>Carregando empresas...</Typography>
+      </Stack>
+    );
+  }
+
+  if (!companies || companies.length === 0) {
+    return (
+      <Stack spacing={2} sx={{ p: 3 }} alignItems={'center'}>
+        <Typography variant="body1">
+          Nenhuma empresa cadastrada
+        </Typography>
       </Stack>
     );
   }
