@@ -1,4 +1,6 @@
 'use client';
+
+import React from 'react';
 import { usePathname } from 'next/navigation';
 import { Breadcrumbs, Typography, Link as MuiLink } from '@mui/material';
 import NavigateNextRoundedIcon from '@mui/icons-material/NavigateNextRounded';
