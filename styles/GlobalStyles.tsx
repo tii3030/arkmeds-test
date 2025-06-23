@@ -6,8 +6,7 @@ const GlobalStyles = () => (
       body: {
         margin: 0,
         padding: 0,
-        fontFamily: "'Roboto', sans-serif",
-        backgroundColor: '#f5f5f5',
+        // backgroundColor: '#f5f5f5',
         minHeight: '100vh',
       },
       a: {

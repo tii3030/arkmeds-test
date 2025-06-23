@@ -3,6 +3,7 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
+import GlobalStyles from '@/styles/GlobalStyles'
 import Header from '@/components/layout/Header';
 import SideMenu from '@/components/layout/SideMenu';
 import Stack from '@mui/material/Stack';
@@ -26,7 +27,7 @@ const queryClient = new QueryClient();
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body style={{ margin: 0 }}>
+      <body>
         <QueryClientProvider client={queryClient}>
 
           {/* Toast */}
@@ -42,7 +43,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           <AppTheme themeComponents={xThemeComponents}>
             <CssBaseline enableColorScheme />
-            <Box component="nav" sx={{ display: 'flex' }}>
+            <GlobalStyles />
+            <Box sx={{ display: 'flex' }}>
               <SideMenu />
               <AppNavbar />
             
