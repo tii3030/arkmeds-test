@@ -89,7 +89,7 @@ Utilização de Material UI, styled-components para garantir uma interface clara
 
 ---
 
-## 🔑 Variáveis de Ambiente
+## 🔑 Variáveis de Ambiente (.env.local)
 
 ```bash
 NEXT_PUBLIC_API_BASE_URL=
